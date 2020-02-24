@@ -44,6 +44,29 @@ nav ul a:hover {
   color: #000;
   background: #fff;
 }
+.banner-section {
+  position: relative;
+}
+.banner-section::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -34px;
+  background-image: url(../image/bg2.png);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+}
+.banner-section::after {
+  content: "";
+  position: absolute;
+  left: 45%;
+  bottom: 15%;
+  background-image: url(../image/best-product.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 50%;
+}
 .carousel-item h1 {
   font-size: 41px;
 }
